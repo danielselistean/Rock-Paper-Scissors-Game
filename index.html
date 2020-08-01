@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Rock-Paper-Scissors Game</h1>
+
+    <div class="container">
+        <!--These are the buttons that the user clicks to choose- Rock, Paper, or Scisors.-->
+        <ul>
+            <li><button id="rock" class="shoot">Rock</button></li>
+            <li><button id="paper" class="shoot">Paper</button></li>
+            <li><button id="scissors" class="shoot">Scissors</button></li>
+        </ul>
+        <!-- The content between this div prints out what the user and the-computer chose, as well as whether or not the user won.-->
+        <div class="banner">
+            <p id="choice">Go ahead and shoot !</p>
+            <p id="winOrLose"></p>
+        </div>
+        <!-- The contents in this div keep track of the both the user's- and the computers score.-->
+        <div class="score">
+            <span class="label">USER: </span><span id="userScore">0</span></br></br>
+            <span class="label">COMPUTER: </span><span id="computerScore">0</span>
+        </div>
+        <!-- This div keeps track of the ties-->
+        <div class="tieLable">
+            <span class="label">TIE: </span><span id="ties">0</span>
+            <button id = "restart">Restart Game</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

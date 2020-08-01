@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003366;
+    color: white;
+}
+h1 {
+    color: lightgreen;
+    margin: 3rem auto;
+    text-align: center;
+}
+.container {
+    background-color: lightslategrey;
+    width: 60%;
+    height: 32rem;
+    margin: 0 auto;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+button {
+    width: 6rem;
+    height: 3rem;
+}
+#rock {
+    background-color: gray;
+    font-weight: bold;
+}
+#paper {
+    background-color: salmon;
+    font-weight: bold;
+}
+#scissors {
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+.banner {
+    margin: 1rem;
+}
+#choice {
+    font-size: larger;
+    color: lightpink;
+}
+b {
+    color: lightgreen;
+}
+i {
+    color:orange;
+}
+.tieLable {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label {
+    color: lightskyblue;
+}
+#restart {
+    margin-top: 2rem;
+    width: 8rem;
+    font-weight: bolder;
+    background-color: orange;
+}
