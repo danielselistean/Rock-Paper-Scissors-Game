@@ -15,8 +15,8 @@ h1 {
 }
 .container {
     background-color: lightslategrey;
-    width: 50%;
-    height: 33rem;
+    width: 44%;
+    height: 32rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -56,8 +56,7 @@ i {
 .tieLable {
     margin-top: 1.2rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 .label {
     color: lightskyblue;
@@ -67,4 +66,7 @@ i {
     width: 8rem;
     font-weight: bolder;
     background-color: orange;
+}
+#ties {
+    margin-left: 5px;
 }
